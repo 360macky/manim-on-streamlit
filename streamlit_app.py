@@ -3,12 +3,7 @@ from manim import *
 import os
 
 """
-# Welcome to Manim+AI!
-
-Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+# Manim on Streamlit
 
 """
 
@@ -31,7 +26,6 @@ class TestExample(Scene):
 
 # Define the Streamlit app
 def main():
-    st.title("Basic Manim Animation")
     scene = TestExample()
 
     # Create a button to run the Manim animation
