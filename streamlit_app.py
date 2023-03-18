@@ -1,9 +1,7 @@
 from collections import namedtuple
 import altair as alt
-import math
 import pandas as pd
 import streamlit as st
-import manim
 from manim import *
 import os
 
@@ -17,6 +15,8 @@ forums](https://discuss.streamlit.io).
 
 """
 
+config = ManimConfig()
+config.output_format = "mp4"
 
 class Example(Scene):
     def construct(self):
