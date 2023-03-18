@@ -1,11 +1,5 @@
-from collections import namedtuple
-import altair as alt
-import pandas as pd
 import streamlit as st
 from manim import *
-import os
-import subprocess
-import time
 
 """
 # Welcome to Manim+AI!
@@ -42,7 +36,7 @@ def main():
     if st.button("Run Animation"):
         # Render the animation using Manim
         scene = Example()
-        scene.render(preview=False)
+        scene.render()
 
         # Wait 1000 seconds an list the files in the media directory
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
