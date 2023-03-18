@@ -14,7 +14,7 @@ forums](https://discuss.streamlit.io).
 
 # config.format = "mp4"
 
-class Example(Scene):
+class TestExample(Scene):
     def construct(self):
         circle = Circle(color=WHITE)
         square = Square(color=BLUE)
@@ -32,7 +32,7 @@ class Example(Scene):
 # Define the Streamlit app
 def main():
     st.title("Basic Manim Animation")
-    scene = Example()
+    scene = TestExample()
 
     # Create a button to run the Manim animation
     if st.button("Run Animation"):
@@ -41,7 +41,7 @@ def main():
         logger.info("Animation rendered successfully!")
 
         # Logger.info of files in the media folder
-        logger.info(os.listdir(os.getcwd() + "/media/videos"))
+        logger.info(os.listdir(os.getcwd() + "/media/videos/1080p60/"))
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
