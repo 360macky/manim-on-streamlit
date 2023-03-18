@@ -4,4 +4,7 @@ streamlit
 manim
 numpy
 pycairo
+libcairo2-dev
+libpango1.0-dev
+libffi-dev
 
