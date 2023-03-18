@@ -17,7 +17,7 @@ forums](https://discuss.streamlit.io).
 
 """
 
-config.format = "mp4"
+config['format'] = "mp4"
 
 class Example(Scene):
     def construct(self):
@@ -42,7 +42,7 @@ def main():
     if st.button("Run Animation"):
         # Render the animation using Manim
         scene = Example()
-        scene.render(True)
+        scene.render()
 
         # Wait 1000 seconds an list the files in the media directory
 
