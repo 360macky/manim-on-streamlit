@@ -41,7 +41,7 @@ def main():
         logger.info("Animation rendered successfully!")
 
         # Logger.info of .mp4 files in the media/videos/1080p60 folder:
-        logger.info(os.listdir(os.path.join(os.getcwd(), "media/videos/1080p60")))
+        logger.info(os.listdir(os.path.join(os.getcwd(), "media/videos/1080p60/partial_movie_files")))
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
