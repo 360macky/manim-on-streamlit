@@ -15,7 +15,6 @@ forums](https://discuss.streamlit.io).
 
 """
 
-config = ManimConfig()
 config.output_format = "mp4"
 
 class Example(Scene):
