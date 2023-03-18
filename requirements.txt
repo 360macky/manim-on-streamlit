@@ -3,4 +3,5 @@ pandas
 streamlit
 manim
 numpy
+pycairo
 
