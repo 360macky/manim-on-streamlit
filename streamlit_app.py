@@ -9,7 +9,7 @@ I'm trying to run a Streamlit app that uses Manim to render a simple animation.
 
 """
 
-class TestExample(Scene):
+class ExampleOfAnimation(Scene):
     def construct(self):
         circle = Circle(color=WHITE)
         square = Square(color=BLUE)
@@ -26,7 +26,7 @@ class TestExample(Scene):
 
 # Define the Streamlit app
 def main():
-    scene = TestExample()
+    scene = ExampleOfAnimation()
 
     # Create a button to run the Manim animation
     if st.button("Run Animation"):
