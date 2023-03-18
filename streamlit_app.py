@@ -37,7 +37,7 @@ def main():
     # Create a button to run the Manim animation
     if st.button("Run Animation"):
         # Render the animation using Manim
-        scene.render()
+        scene.render(preview=False)
         logger.info("Animation rendered successfully!")
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
