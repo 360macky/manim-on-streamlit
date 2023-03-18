@@ -10,10 +10,14 @@ import time
 """
 # Welcome to Manim+AI!
 
+Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
+
+If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+forums](https://discuss.streamlit.io).
 
 """
 
-config['format'] = "mp4"
+config.format = "mp4"
 
 class Example(Scene):
     def construct(self):
@@ -38,7 +42,7 @@ def main():
     if st.button("Run Animation"):
         # Render the animation using Manim
         scene = Example()
-        scene.render(False)
+        scene.render()
 
         # Wait 1000 seconds an list the files in the media directory
 
