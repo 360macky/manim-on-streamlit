@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 from manim import *
 import os
+import subprocess
 
 """
 # Welcome to Manim+AI!
