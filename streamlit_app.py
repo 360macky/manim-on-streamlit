@@ -26,15 +26,14 @@ class ExampleOfAnimation(Scene):
 
 # Define the Streamlit app
 def main():
-    scene = ExampleOfAnimation()
+    custom_scene = ExampleOfAnimation()
 
     # Create a button to run the Manim animation
     if st.button("Run Animation"):
-        # Render the animation using Manim
-        scene.render(preview=False)
 
-        # Logger.info of .mp4 files in the media/videos/1080p60 folder:
-        logger.info(os.listdir(os.path.join(os.getcwd(), "media/videos/1080p60/partial_movie_files")))
+        # Render the animation using Manim
+        custom_scene.render(preview=False)
+
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
