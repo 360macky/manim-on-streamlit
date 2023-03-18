@@ -17,7 +17,7 @@ forums](https://discuss.streamlit.io).
 
 """
 
-config.format = "mp4"
+# config.format = "mp4"
 
 class Example(Scene):
     def construct(self):
