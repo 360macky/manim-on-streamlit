@@ -21,7 +21,6 @@ config.format = "mp4"
 
 class Example(Scene):
     def construct(self):
-        self.__format__ = "mp4"
         circle = Circle(color=WHITE)
         square = Square(color=BLUE)
 
