@@ -42,13 +42,11 @@ def main():
     if st.button("Run Animation"):
         # Render the animation using Manim
         scene = Example()
-        # scene.render()
+        scene.render()
 
         # Wait 1000 seconds an list the files in the media directory
-
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
-
         # Display the rendered video using Streamlit
         # video_path = os.path.join(os.getcwd(), "media/videos/Example.mp4")
         # st.video(video_path)
