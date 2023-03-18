@@ -5,6 +5,7 @@ import streamlit as st
 from manim import *
 import os
 import subprocess
+import time
 
 """
 # Welcome to Manim+AI!
@@ -43,6 +44,11 @@ def main():
         # Render the animation using Manim
         scene = Example()
         scene.render()
+
+        # Wait 1000 seconds an list the files in the media directory
+        time.sleep(1000)
+        os.system("ls -l media")
+
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
