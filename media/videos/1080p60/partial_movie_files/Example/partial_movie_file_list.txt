@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/2724823860_1546760175_223132457.mp4'
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/1164547788_3638504700_3624670998.mp4'
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/1164547788_3691101262_958101682.mp4'
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/1164547788_3638504700_945667179.mp4'
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/1164547788_1208764293_2383011644.mp4'
-file 'file:/Users/marcelo/Documents/GitHub/streamlit-example/media/videos/1080p60/partial_movie_files/Example/1164547788_3638504700_2649601153.mp4'
