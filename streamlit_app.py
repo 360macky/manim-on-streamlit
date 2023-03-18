@@ -15,7 +15,7 @@ forums](https://discuss.streamlit.io).
 
 """
 
-config.output_format = "mp4"
+config.format = "mp4"
 
 class Example(Scene):
     def construct(self):
@@ -42,8 +42,8 @@ def main():
         scene = Example()
         scene.render()
 
-        image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
-        st.image(image_path, caption="Example Image")
+        # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
+        # st.image(image_path, caption="Example Image")
 
         # Display the rendered video using Streamlit
         # video_path = os.path.join(os.getcwd(), "media/videos/Example.mp4")
