@@ -15,7 +15,6 @@ Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
 forums](https://discuss.streamlit.io).
 
-In the meantime, below is an example of what you can do with just a few lines of code:
 """
 
 
@@ -45,8 +44,8 @@ def main():
         scene.render()
 
         # Display the rendered video using Streamlit
-        video_path = os.path.join(os.getcwd(), "media/videos/Example.mp4")
-        st.video(video_path)
+        # video_path = os.path.join(os.getcwd(), "media/videos/Example.mp4")
+        # st.video(video_path)
 
 
 if __name__ == "__main__":
