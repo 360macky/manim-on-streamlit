@@ -46,8 +46,8 @@ def main():
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
         # Display the rendered video using Streamlit
-        video_path = os.path.join(os.getcwd(), "media/videos/1080p60/Example.mp4")
-        st.video(video_path)
+        # video_path = os.path.join(os.getcwd(), "media/videos/1080p60/Example.mp4")
+        # st.video(video_path)
         # video_path = "/app/streamlit-example/media/images/Example_ManimCE_mp4"
 
 
