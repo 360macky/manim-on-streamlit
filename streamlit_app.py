@@ -42,7 +42,7 @@ def main():
     if st.button("Run Animation"):
         # Render the animation using Manim
         scene = Example()
-        scene.render()
+        # scene.render()
 
         # Wait 1000 seconds an list the files in the media directory
 
