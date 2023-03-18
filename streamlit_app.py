@@ -40,6 +40,9 @@ def main():
         scene.render(preview=False)
         logger.info("Animation rendered successfully!")
 
+        # Logger.info of files in the media folder
+        logger.info(os.listdir(os.getcwd() + "/media/videos"))
+
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
         # Display the rendered video using Streamlit
