@@ -32,12 +32,13 @@ class Example(Scene):
 # Define the Streamlit app
 def main():
     st.title("Basic Manim Animation")
+    scene = Example()
 
     # Create a button to run the Manim animation
     if st.button("Run Animation"):
         # Render the animation using Manim
-        scene = Example()
-        # scene.render()
+        scene.render()
+        logger.info("Animation rendered successfully!")
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
