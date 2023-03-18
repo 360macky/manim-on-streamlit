@@ -46,8 +46,6 @@ def main():
         scene.render(True)
 
         # Wait 1000 seconds an list the files in the media directory
-        print(os.system("ls -l media"))
-
 
         # image_path = "/app/streamlit-example/media/images/Example_ManimCE_v0.16.0.post0.png"
         # st.image(image_path, caption="Example Image")
