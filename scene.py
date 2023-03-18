@@ -12,7 +12,7 @@
 #         self.wait()
 
 #         self.play(FadeOut(square))
-#         self.wait()
+#         self.wait()   
 
 # scene = Example()
 # scene.render(preview=False)
